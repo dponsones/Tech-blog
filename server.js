@@ -6,7 +6,7 @@ const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 // const parser = require('body-parser');
 const sequelize = require('./config/connection');
-const bodyParser = require('body-parser');
+// const bodyParser = require('body-parser');
 
 // TODO: Add a comment describing the functionality of this expression
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
