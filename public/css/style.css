@@ -1,0 +1,19 @@
+.navbar-brand h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3273dc; /* Adjust the color as needed */
+  margin: 0;
+}
+
+.navbar-brand a.navbar-item {
+  padding: 0;
+}
+
+.navbar-brand a.navbar-item:hover {
+  background-color: transparent;
+}
+
+.navbar-item.is-active {
+  background-color: transparent;
+  border-bottom: 2px solid #3273dc; /* Adjust the color as needed */
+}
