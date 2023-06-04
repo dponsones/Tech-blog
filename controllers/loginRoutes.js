@@ -2,8 +2,6 @@ const { User } = require('../models');
 const router = require('express').Router();
 const bcrypt = require('bcrypt');
 
-//changed casing for push 
-
 router.get('/', async (req, res) => {
   res.render('login');
 })

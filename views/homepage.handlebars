@@ -1,2 +1,7 @@
 {{> navigation}}
-
+<div>
+  {{#each items as |item|}}
+    <h2>Recent Posts</h2>
+    {{item.title}} {{item.description}}
+  {{/each}}
+</div>

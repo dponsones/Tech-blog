@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { post, User } = require('../models');
 const withAuth = require('../utils/auth');
 
-router.get('/post', async (req, res) => {
+router.get('/post', withAuth, async (req, res) => {
     try {
 
         res.render('post');
